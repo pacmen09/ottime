@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --dark-color: hsl(var(--hue), 100%, 9%);
     --light-color: hsl(var(--hue), 95%, 98%);
     --base: hsl(var(--hue), 95%, 50%);
@@ -12,25 +12,18 @@
       hsl(var(--hue), 95%, 99%),
       hsl(var(--hue), 95%, 84%)
     );
-  }
+  } */
   
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #ffffff;
-    
-    
-    /* color: #ffffff; */ 
   }
   
   .text-w {
     color: rgb(255, 255, 255);
   }
-
-  
- 
-
 
   html {
     -webkit-font-smoothing: antialiased;
@@ -43,7 +36,7 @@
     display: grid;
     place-items: center;
     padding: 2rem;
-    font-family: var(--font-family);
+    font-family: "Poppins", system-ui;
     color: var(--dark-color);
     background: var(--bg-gradient);
     
