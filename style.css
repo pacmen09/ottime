@@ -61,7 +61,7 @@
     max-width: 740px;
     max-height: 2640px;
     padding: 3rem 4rem 3rem 4rem;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     background: rgba(255, 255, 255, 0.375);
     box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
@@ -280,7 +280,31 @@
   
 }
 
+  .iov {
+    display: flex;
+    justify-content: center;
+  }
+
+  .a04551 {
+    display: block;
+    font-size: 4em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 1em;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+
 @media screen and (min-width:100px) and (max-width: 500px) {
+
+  .a04551 {
+    font-size: 3.5em;
+
+  }
 
   .overlay {
     padding: 3rem 2.5rem 3rem 2.5rem;
