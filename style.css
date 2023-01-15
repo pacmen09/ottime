@@ -15,7 +15,7 @@
   } */
   
   * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     color: #ffffff;
@@ -35,7 +35,7 @@
     min-height: 100vh;
     display: grid;
     place-items: center;
-    padding: 2rem;
+    padding-top: 2rem;
     font-family: "Poppins", system-ui;
     color: var(--dark-color);
     background: var(--bg-gradient);
@@ -67,6 +67,8 @@
     box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
     border-radius: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-left: 10%;
+    margin-right: 10%;
   }
   
   /* .overlay__inner {
@@ -273,4 +275,16 @@
     margin: 0px;
 
   
+}
+
+@media screen and (min-width:100px) and (max-width: 500px) {
+
+  .overlay {
+    padding: 3rem 3rem 3rem 3rem;
+  }
+
+  .tim-gru {         
+    font-size: 3em;
+}
+
 }
