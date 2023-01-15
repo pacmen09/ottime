@@ -52,8 +52,7 @@ var old = new Date("2022-09-03"); // !!! год-месяц-день !!!
     minn.innerHTML = zero_first_format(min) + ':';
     secc.innerHTML = zero_first_format(sec);
     
-    setInterval(updateTime, 500);
+   
 }
 
-
-updateTime()
+setInterval(updateTime, 1000);

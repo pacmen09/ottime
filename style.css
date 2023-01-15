@@ -259,7 +259,8 @@
     padding-right: 1em;
     border-radius: 1em;
     /* margin-bottom: 2em; */
-    border: solid 2px;
+    /* border: solid 2px; */
+
   }
 
   .tim-gru {       
@@ -281,11 +282,21 @@
 @media screen and (min-width:100px) and (max-width: 500px) {
 
   .overlay {
-    padding: 3rem 3rem 3rem 3rem;
+    padding: 3rem 2.5rem 3rem 2.5rem;
   }
 
   .tim-gru {         
     font-size: 3.7em;
-}
+  }
 
+  /* .timi {
+    display: flex;
+    justify-content: center;
+  } */
+
+  .pol {
+
+    font-size: 1.8em;
+
+  }
 }
