@@ -297,6 +297,9 @@
     margin-bottom: 1em;
     color: rgba(255, 255, 255, 0.3);
   }
+  span {
+    color: rgba(255, 255, 255, 0.3);
+  }
 
 
 @media screen and (min-width:100px) and (max-width: 500px) {
