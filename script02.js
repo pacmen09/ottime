@@ -127,3 +127,19 @@ var old = new Date("2022-09-03"); // !!! год-месяц-день !!!
 }
 
 setInterval(updateTime, 1000);
+
+
+
+// function overrlayzad() {
+
+//   setTimeout(() => {    
+//   let k = document.getElementById("div5");
+//   k.classList.add("vid"); 
+
+  
+
+//   }, 1000);
+
+// }
+
+// overrlayzad()
