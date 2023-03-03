@@ -6,7 +6,7 @@
 
 const audioPlayer = document.querySelector(".audio-player");
 const audio = new Audio(
-  "/formilana.mp3"
+  "formilana.mp3"
 );
 //credit for song: Adrian kreativaweb@gmail.com
 
